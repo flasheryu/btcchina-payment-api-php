@@ -67,11 +67,11 @@
 	//	$res=array(0.0005,"BTC","http://<YOUR SERVER URL to PROCESS CALLBACK>" ,"http://<RETURN URL>","demo002","A notebook maybe","13500000001",0);
 		var_dump(request('createPurchaseOrder', $res));
 
-		$res=array(1);
-		var_dump(request('getPurchaseOrder', $res));
+	//	$res=array(1);
+	//	var_dump(request('getPurchaseOrder', $res));
  
-		$res=array();
-		var_dump(request('getPurchaseOrders', $res));
+	//	$res=array();
+	//	var_dump(request('getPurchaseOrders', $res));
 
 	} catch (Exception $e) {
 		echo "Error:".$e->getMessage();
